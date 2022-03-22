@@ -2,7 +2,7 @@
 public class Gebaeude
 {
     protected double hoehe;
-    
+    protected String gebauedeArt; 
     protected int besucher;
     
     public Gebaeude( double pHoehe, int pBesucher )

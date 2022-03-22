@@ -6,6 +6,7 @@ public class Hochhaus extends Haus
     public Hochhaus( double pHoeheProStockwerk, int pStockwerke, int pBesucherProStockwerk )
     {
         super(pHoeheProStockwerk, pStockwerke, pBesucherProStockwerk);
+        gebauedeArt = "Hochhaus";
     }
     
     public int anzahlBesucher() {
